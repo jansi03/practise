@@ -1,0 +1,7 @@
+----
+- hosts:slave1
+sudo:yes
+name:play1
+tasks:
+- name:install apache
+apt:name=apache2 state=latest
